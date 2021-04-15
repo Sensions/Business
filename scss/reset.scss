@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@400;500;700&family=Rubik:ital,wght@0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    width: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(to bottom, #3B1D60, #040D3E);
+    width: 100%;
+}
+img{
+    max-width: 100%;
+}
+.none{
+    display: none;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.container-full{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.container-sm{
+    max-width: 968px;
+    margin: 0 auto;
+}
+.footer-container{
+    max-width: 992px;
+    margin: 0 auto;
+}
+.button{
+    width: 155px;
+    height: 48px;
+    border: 1px solid #F2994A;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+    border-radius: 3px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #F2994A;
+    transition: .2s;
+    &:hover{
+        background-color: #F2994A;
+          color: white;
+      }   
+    }
