@@ -87,6 +87,10 @@ footer .footer-grid-container{
     }
 }
 @media(max-width:767px){
+    body.overflow{
+        overflow: hidden;
+    }
+   
     .header-nav{
         .header-items {
           .header-links-bg-fixed-mobile{
@@ -100,6 +104,7 @@ footer .footer-grid-container{
             z-index: 100;
             transform: translateX(-100%);
             transition: .5s all ease;
+            overflow: auto;
             .header-links{
                 margin-left: 0;
                 flex-direction: column;
@@ -168,18 +173,6 @@ footer .footer-grid-container{
             margin-bottom: 20px;
         }
     }
-    footer{
-        background-repeat: repeat; 
-        .footer-grid-container{
-        grid-template-areas:
-        "item-one item-one item-two item-two"
-        "item-three item-three item-four item-four"
-        "item-five item-five item-six item-six";
-        .footer-item-four{
-            text-align: right;
-        }
-    }
-}
     .help-flex{
  flex-wrap: wrap-reverse;
  justify-content: center;
@@ -194,6 +187,17 @@ footer .footer-grid-container{
 .reasons .reason-card .reason-card-title{
     font-size: 25px;
     line-height: 33px;
+}
+footer{
+    .footer-grid-container{
+    grid-template-areas:
+    "item-one item-one item-two item-two"
+    "item-three item-three item-four item-four"
+    "item-five item-five item-six item-six";
+    .footer-item-four{
+        text-align: right;
+    }
+}
 }
     
 }
