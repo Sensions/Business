@@ -220,6 +220,10 @@ header {
 }
 .info-flex-container .info-col-one .info-preview span {
   color: #8476AA;
+  transition: 0.2s;
+}
+.info-flex-container .info-col-one .info-preview span:hover {
+  color: #FFFFFF;
 }
 .info-flex-container .info-col-two {
   width: 50%;

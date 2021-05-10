@@ -145,6 +145,10 @@ header{
            }
            span{
             color: #8476AA;  
+            transition: .2s;
+           }
+           span:hover{
+               color: #FFFFFF;
            }
        }
    }
