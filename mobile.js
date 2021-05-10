@@ -1,5 +1,5 @@
 (function(){
-     burgerItem = document.querySelector('.header-burger');
+     let burgerItem = document.querySelector('.header-burger');
     let menu = document.querySelector('.header-links-bg-fixed-mobile');
     let menuCloseItem = document.querySelector(".header-nav-close-mobile");
     burgerItem.addEventListener('click', () => {
