@@ -12,6 +12,14 @@
     })
 
 }())
+let header = document.getElementById('header')
+window.onscroll = function(){
+  if(window.pageYOffset > 400){
+      header.classList.add('header-scrolled')
+  }else{
+      header.classList.remove('header-scrolled') 
+  }
+}
 
 
 
