@@ -1271,12 +1271,24 @@ footer .slider img:hover {
     .header-scrolled {
         padding: 10px 0 14px;
     }
+    .header-nav .header-buttons {
+      gap: 10px;
+  }
+    .info {
+      padding: 110px 15px 15px;
+    }
     footer .footer-span{
       flex-direction: column;
       text-align: center;
   }
 }
 }
+@media (max-width: 390px){
+  .header-nav .header-buttons .header-button {
+    padding: 9px 15px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.scss.map */
